@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Dietary Nutrition</string>
+
+    <string name="nav_main_button">Main</string>
+    <string name="nav_plan_button">Plan</string>
+    <string name="nav_recipe_button">Recipe</string>
+    <string name="nav_notice_button">Notice</string>
+    <string name="nav_my_button">My</string>
+
+    <string name="register_icon">register_icon</string>
+    <string name="register1_email">email address</string>
+    <string name="register1_name">name</string>
+    <string name="register1_next">next</string>
+    <string name="register2_password1">password</string>
+    <string name="register2_password2">confirm password</string>
+    <string name="register2_next">next</string>
+    <string name="register3_height">height</string>
+    <string name="register3_weight">weight</string>
+    <string name="register3_age">age</string>
+    <string name="register3_nonBinary">non-binary</string>
+    <string name="register3_male">male</string>
+    <string name="register3_female">female</string>
+    <string name="register3_register">register</string>
+    <string name="register_to_login">Already have an account?</string>
+
+    <string name="login_icon">login_icon</string>
+    <string name="login_email">email address</string>
+    <string name="login_password">password</string>
+    <string name="login_login">login</string>
+    <string name="login_to_register">Don\'t have an account?</string>
+
+    <string name="app_version">v0.0.1</string>
+</resources>

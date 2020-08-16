@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_main_page">
+
+    <fragment
+        android:id="@+id/navigation_plan_page"
+        android:name="com.example.dietaryNutrition.ui.plan_page.PlanPageFragment"
+        android:label="@string/nav_plan_button"
+        tools:layout="@layout/fragment_plan_page" />
+
+    <fragment
+        android:id="@+id/navigation_main_page"
+        android:name="com.example.dietaryNutrition.ui.main_page.MainPageFragment"
+        android:label="@string/nav_main_button"
+        tools:layout="@layout/fragment_main_page" />
+
+    <fragment
+        android:id="@+id/navigation_recipe_page"
+        android:name="com.example.dietaryNutrition.ui.recipe_page.RecipePageFragment"
+        android:label="@string/nav_recipe_button"
+        tools:layout="@layout/fragment_recipe_page" />
+    <fragment
+        android:id="@+id/navigation_notice_page"
+        android:name="com.example.dietaryNutrition.ui.notice_page.NoticePageFragment"
+        android:label="@string/nav_notice_button"
+        tools:layout="@layout/fragment_notice_page" />
+    <fragment
+        android:id="@+id/navigation_my_page"
+        android:name="com.example.dietaryNutrition.ui.my_page.MyPageFragment"
+        android:label="@string/nav_my_button"
+        tools:layout="@layout/fragment_my_page" />
+</navigation>
