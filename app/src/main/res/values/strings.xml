@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Dietary Nutrition</string>
 
+    <string name="main_page_search">Search…</string>
+    <string name="main_page_recipe_image">recipe_image</string>
+
     <string name="nav_main_button">Main</string>
     <string name="nav_plan_button">Plan</string>
     <string name="nav_recipe_button">Recipe</string>

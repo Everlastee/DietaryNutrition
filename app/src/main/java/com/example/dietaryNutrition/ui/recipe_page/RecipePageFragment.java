@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import com.example.dietaryNutrition.R;
-import com.example.dietaryNutrition.login_register.register.Register1;
+import com.example.dietaryNutrition.login_register.login.Login;
 
 public class RecipePageFragment extends Fragment {
 
@@ -20,9 +20,6 @@ public class RecipePageFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-
-        startActivity(new Intent(getActivity(), Register1.class));
-
         recipePageViewModel =
                 ViewModelProviders.of(this).get(RecipePageViewModel.class);
         View root = inflater.inflate(R.layout.fragment_recipe_page, container, false);
@@ -34,5 +31,11 @@ public class RecipePageFragment extends Fragment {
             }
         });
         return root;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        startActivity(new Intent(getActivity(), Login.class));
     }
 }
